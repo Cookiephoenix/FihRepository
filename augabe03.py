@@ -1,6 +1,10 @@
 def teil_a():
     #Person A arbeitet hier
-    return 0
+    return sum(
+        zahl
+        for zahl in range(1, 500_001)
+        if zahl % 7 == 0 and zahl % 5 != 0
+    )
 
 def teil_b():
     #Person B arbeitet hier
