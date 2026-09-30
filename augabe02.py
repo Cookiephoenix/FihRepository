@@ -8,3 +8,5 @@ while len(str(b)) < 100:
     index += 1
 
 print("Index der Fibonacci-Zahl:", index)
+print("Anzahl Stellen:", len(str(b)))
+print("Die Zahl selbst:", b)

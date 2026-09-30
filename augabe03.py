@@ -8,6 +8,6 @@ def teil_a():
 
 def teil_b():
     #Person B arbeitet hier
-    return 0
+    return sum(n for n in range(1, 500001) if n % 11 == 0 and n % 3 != 0);
 
 print(teil_a()+teil_b())
